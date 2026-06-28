@@ -9,4 +9,4 @@ the instructions to provide a leaner output with the following prompt:
 
 please be sure to use this responsibly.
 
-this is based off my expert skill repo best researcher.
+this is based off my expert skill best researcher and research+development.
