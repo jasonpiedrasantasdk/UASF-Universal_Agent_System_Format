@@ -1,0 +1,36 @@
+{
+  "name": "uasf-agent-architect",
+  "owner": {
+    "name": "jasonpiedrasantasdk"
+  },
+  "metadata": {
+    "description": "UASF v8 Agent Architect — converts rough specs into production-quality Universal Agent System Format constitutions",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "uasf-agent-architect",
+      "source": "./",
+      "description": "Project instruction + slash command for building UASF v8 agents",
+      "version": "1.0.0",
+      "author": {
+        "name": "jasonpiedrasantasdk"
+      },
+      "homepage": "https://github.com/jasonpiedrasantasdk/MoE-AC-Mastery-of-Expert-Agent-Creation",
+      "repository": "https://github.com/jasonpiedrasantasdk/MoE-AC-Mastery-of-Expert-Agent-Creation",
+      "license": "Unlicense",
+      "keywords": [
+        "uasf",
+        "agent-architect",
+        "agent-building",
+        "prompt-engineering",
+        "universal-agent-system"
+      ],
+      "category": "development",
+      "strict": false,
+      "commands": [
+        "./project-instruction-uasf.md"
+      ]
+    }
+  ]
+}
