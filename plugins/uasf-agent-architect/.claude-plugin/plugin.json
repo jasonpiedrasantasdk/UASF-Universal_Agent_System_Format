@@ -11,12 +11,5 @@
     "agent-building",
     "prompt-engineering",
     "universal-agent-system"
-  ],
-  "commands": [
-    {
-      "name": "project-instruction-uasf",
-      "description": "Outputs the complete UASF v8 Agent Architect instruction for building production-quality agent constitutions",
-      "entryPoint": "commands/project-instruction-uasf.md"
-    }
   ]
 }

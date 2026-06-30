@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "uasf-agent-architect",
-      "source": ".claude-plugin/uasf-agent-architect",
+      "source": "./plugins/uasf-agent-architect",
       "description": "Project instruction + slash command for building UASF v8 agents",
       "version": "1.0.0",
       "author": {
@@ -26,8 +26,7 @@
         "prompt-engineering",
         "universal-agent-system"
       ],
-      "category": "development",
-      "strict": false
+      "category": "development"
     }
   ]
 }
