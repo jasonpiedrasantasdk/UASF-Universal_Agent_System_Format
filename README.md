@@ -1,4 +1,5 @@
-# (MoE-AC)Mastery-of-Expert-Agent-Creation
+# UASF - Universal Agent System Format
+###### *Previously Named - (MoE-AC)Mastery-of-Expert-Agent-Creation*
 
 this repository serves as a sharepoint for my workflow in creating speacialized agents
 which i decided to also call MoE Agents aka 'Mastery Of Expert Agent Creation'. The workflow is quite simple and infact provides a near perfect end product for one shot instructions. you may have to cut off the changelog or request the model producing
