@@ -10,6 +10,21 @@ please be sure to use this responsibly.
 
 ## How to use:
 
+### Option A(Recommended for Claude):
+
+Add Git Repo to the Claude Marketplace Custom Plugins in the Desktop Client or with Claude Code:
+```
+/plugin marketplace add jasonpiedrasantasdk/UASF-Universal_Agent_System_Format
+```
+Then Install the plugin and reload with:
+```
+/plugin install uasf-agent-architect
+/reload-plugins
+```
+After you complete the installation you can either directly ask claude to generate an agent and say 'use the uasf-agent-architect' with your requirements. Or you create a prompt in another LLM to get the specifics down for what you want generated, and then inject the same phrase with your prompt to generate an agent.
+
+### Option B:
+
 1. Choose 2 Model Providers(1 is ssufficient but 2 is recommended), one for synthesis of your Input Injection Prompt. The Second for the Agent Generation.(I chose Gemini and Claude)
 
   ###### A. I chose Gemini 3.1 Pro For the best Contextual Language
