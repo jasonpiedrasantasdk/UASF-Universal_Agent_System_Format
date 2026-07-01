@@ -22,7 +22,7 @@ Once uploaded, just ask Claude to build/convert/upgrade an agent spec — it aut
 
 **Claude Code Plugin (CLI or Desktop Code tab):**
 
-Add Git Repo to the Claude Marketplace Custom Plugins in the Desktop Client or with Claude Code:
+Add Git Repo to the Claude Marketplace Custom Plugins Claude Code:
 ```
 /plugin marketplace add jasonpiedrasantasdk/UASF-Universal_Agent_System_Format
 ```
@@ -31,14 +31,40 @@ Then Install the plugin and reload with:
 /plugin install uasf-agent-architect
 /reload-plugins
 ```
+In the Claude Code tab or CLI use:
+```
+/project-instruction-uasf
+```
+
+### OR:
+For Claude Destkop: 
+
+NAVIGATE TO: Customize >> Personal Plugins >> Add >> Add Marketplace >> Add From Repository >> jasonpiedrasantasdk/UASF-Universal_Agent_System_Format
+
+##### Install The Skill File
+
+Download Repo from Github or use: 
+```
+git clone https://github.com/jasonpiedrasantasdk/UASF-Universal_Agent_System_Format.git
+```
+
+NAVIGATE TO: Customize >> Personal Plugin >> Add >> Upload >> /Path/To/Git/Repo/
+
+Then add the skill:
+NAVIGATE TO: Customize >> Skills >> Add >> Upload Skill >> /Path/To/Git/Repo/skills/uasf-agent-architect/uasf-agent-architect.skill
+Then use the skill with:
+```
+/uasf-agent-architect 
+```
+
 After you complete the installation you can either directly ask claude to generate an agent and say 'use the uasf-agent-architect' with your requirements. Or you create a prompt in another LLM to get the specifics down for what you want generated, and then inject the same phrase with your prompt to generate an agent.
 
 ### Option B:
 
 1. Choose 2 Model Providers(1 is ssufficient but 2 is recommended), one for synthesis of your Input Injection Prompt. The Second for the Agent Generation.(I chose Gemini and Claude)
 
-  ###### A. I chose Gemini 3.1 Pro For the best Contextual Language
-  ###### B. I chose Claude Opus 4.6, however Model Sonnet 4.6 is sufficient
+  ###### A. I chose Gemini 3.X Pro For the best Contextual Language
+  ###### B. I chose Claude Opus 4.X, however Model Sonnet 5 is sufficient
 
 2. Have a nice conversation with your model A to generate a prompt for your Agent, noting the specific language and important characteristics you wish to estabish for your agent. At this time you should specify the Endpoint or what platform you are creating the agent for. In most cases UASF will generate a Universal Agent. If you dont specify the model agent then you will get a universal agent. Only by adding the model you intend the agent to work with will you get tailored phrasing and instruction.
 
