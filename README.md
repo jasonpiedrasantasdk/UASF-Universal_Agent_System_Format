@@ -79,7 +79,7 @@ At this point the model should generate a complete and UASF Formatted Agent File
 ### Example Files:
 
 ##### *[Mistral_Studio_Agent - Research+Development](Mistral_Studio_Agent%20-%20Research+Development.md)* 
-##### *[Mistral_Studio_Agent - Chef_Mistral](Mistral_Studio_Agent-Chef_Mistral.yaml)* 
+##### *[Mistral_Studio_Agent - Chef_Mistral](Mistral_Studio_Agent%20-%20Chef_Mistral.yaml)* 
 ##### *[Mistral_Studio_Agent - CopyCopy_Mistral_LeLawyer](Mistral_Studio_Agent%20-%20CopyCopy_Mistral_LeLawyer.yaml)* 
 ##### *[Mistral_Studio_Agent - Doc_Mistral_MD](Mistral_Studio_Agent%20-%20Doc_Mistral_MD.yaml)* 
 
